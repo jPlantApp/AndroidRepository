@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/bottom_list"
+        android:icon="@drawable/baseline_checklist_24"
+        android:title="Lista zaklasyfikowanych kwiatów" />
+    <item
+        android:id="@+id/bottom_classification"
+        android:icon="@drawable/baseline_add_24"
+        android:title="Klasyfikacja kwiatów" />
+    <item
+        android:id="@+id/bottom_user"
+        android:icon="@drawable/baseline_person_24"
+        android:title="Profil użytkownika" />
+</menu>

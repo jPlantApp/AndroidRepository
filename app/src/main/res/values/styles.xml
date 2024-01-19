@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="RoundedImageView">
+
+        <!-- Zaokrąglony obraz -->
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">20%</item>
+    </style>
+
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Kolory czcionek -->
+        <item name="android:textColorPrimary">@color/textColorLight</item>
+        <item name="android:textColorSecondary">@color/textColorLight</item>
+        <item name="android:textColorPrimaryInverse">@color/textColorDark</item>
+        <item name="android:textColorSecondaryInverse">@color/textColorDark</item>
+
+        <!-- Animacje przechodzenia między oknami-->
+        <item name="android:activityOpenEnterAnimation">@anim/slide_in_right</item>
+        <item name="android:activityOpenExitAnimation">@anim/slide_out_left</item>
+    </style>
+</resources>

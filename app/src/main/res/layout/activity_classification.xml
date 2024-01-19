@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ClassificationActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="55dp"
+        android:layout_marginEnd="43dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/openGalleryButton"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:background="@drawable/round_btn"
+            android:text="Otwórz galerie" />
+
+        <Button
+            android:id="@+id/takePhotoButton"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_btn"
+            android:textColor="@color/white"
+            android:drawingCacheQuality="high"
+            android:textSize="14sp"
+            android:scrollbarAlwaysDrawHorizontalTrack="false"
+            android:scrollbarAlwaysDrawVerticalTrack="false"
+            android:text="Otwórz aparat" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/sendRequestButton"
+        android:layout_width="267dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp"
+        android:textColor="@color/white"
+        android:layout_marginEnd="60dp"
+        android:background="@drawable/round_btn"
+        android:textSize="14sp"
+        android:text="Rozpocznij klasyfikacje" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/imageView"
+        android:layout_width="200dp"
+        android:layout_height="196dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="107dp"
+        android:layout_marginTop="82dp"
+        android:layout_marginEnd="109dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/flower_2"
+
+        app:shapeAppearanceOverlay="@style/RoundedImageView" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="@android:style/Widget.ProgressBar.Large"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sendRequestButton"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="166dp"
+        android:layout_marginTop="62dp"
+        android:layout_marginEnd="167dp"
+        android:visibility="invisible" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigation"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="49dp"
+        android:layout_marginLeft="47dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/bottom_background"
+        android:elevation="2dp"
+        app:itemIconSize="30sp"
+        app:itemIconTint="@drawable/item_selector"
+        app:itemRippleColor="@android:color/transparent"
+        app:labelVisibilityMode="unlabeled"
+        app:menu="@menu/bottom_menu">
+
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+</RelativeLayout>
