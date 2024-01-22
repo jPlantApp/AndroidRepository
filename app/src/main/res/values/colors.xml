@@ -4,4 +4,20 @@
     <color name="white">#FFFFFFFF</color>
     <color name="green">#517E31</color>
     <color name="grey">#d2d2d2</color>
+
+
+    <!-- Light Green Theme Colors -->
+    <color name="colorPrimaryLightGreen">#4CAF50</color>
+    <color name="colorPrimaryDarkLightGreen">#388E3C</color>
+    <color name="colorAccentLightGreen">#FFC107</color>
+
+    <!-- Light Red Theme Colors -->
+    <color name="colorPrimaryLightRed">#FF5722</color>
+    <color name="colorPrimaryDarkLightRed">#E64A19</color>
+    <color name="colorAccentLightRed">#FFC107</color>
+
+    <!-- Light Blue Theme Colors -->
+    <color name="colorPrimaryLightBlue">#2196F3</color>
+    <color name="colorPrimaryDarkLightBlue">#1565C0</color>
+    <color name="colorAccentLightBlue">#FFC107</color>
 </resources>

@@ -6,4 +6,25 @@
     <style name="Theme.JPlantApp" parent="Theme.AppCompat.DayNight.NoActionBar">
 
     </style>
+
+    <!-- Light Green Theme -->
+    <style name="Theme.LightGreen" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimaryLightGreen</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkLightGreen</item>
+        <item name="colorAccent">@color/colorAccentLightGreen</item>
+    </style>
+
+    <!-- Light Red Theme -->
+    <style name="Theme.LightOrange" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimaryLightRed</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkLightRed</item>
+        <item name="colorAccent">@color/colorAccentLightRed</item>
+    </style>
+
+    <!-- Light Blue Theme -->
+    <style name="Theme.LightBlue" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimaryLightBlue</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkLightBlue</item>
+        <item name="colorAccent">@color/colorAccentLightGreen</item>
+    </style>
 </resources>
