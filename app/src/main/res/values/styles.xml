@@ -13,7 +13,8 @@
         <item name="android:textColorSecondary">@color/textColorLight</item>
         <item name="android:textColorPrimaryInverse">@color/textColorDark</item>
         <item name="android:textColorSecondaryInverse">@color/textColorDark</item>
-
+        <item name="btnStrokeColor">@color/transparent</item>
+        <item name="menuIconColor">@color/lightgray</item>
         <!-- Animacje przechodzenia między oknami-->
         <item name="android:activityOpenEnterAnimation">@anim/slide_in_right</item>
         <item name="android:activityOpenExitAnimation">@anim/slide_out_left</item>
@@ -39,4 +40,19 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDarkLightBlue</item>
         <item name="colorAccent">@color/colorAccentLightGreen</item>
     </style>
+
+    <style name="Theme.VisionImpaired" parent="AppTheme">
+    <!-- Customize attributes for vision-impaired users -->
+    <item name="android:textColorPrimary">@color/textColorVisionImpaired</item>
+    <item name="android:textColorSecondary">@color/textColorVisionImpaired</item>
+    <item name="android:textColorPrimaryInverse">@color/textColorDarkVisionImpaired</item>
+    <item name="android:textColorSecondaryInverse">@color/textColorDarkVisionImpaired</item>
+        <item name="colorPrimary">@color/black</item>
+        <item name="android:background">@color/black</item>
+        <item name="colorPrimaryDark">@color/black</item>
+        <item name="colorAccent">@color/colorAccentLightGreen</item>
+        <item name="btnStrokeColor">@color/yellow</item>
+        <item name="menuIconColor">@color/yellow</item>
+    <!-- Customize other attributes as needed -->
+</style>
 </resources>

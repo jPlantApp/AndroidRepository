@@ -12,7 +12,7 @@ class ThemeKeeper {
         current_id = current_id % themes.length; // just in case
         return themes[current_id];
     }
-    private static final int[] themes = {R.style.Theme_LightGreen, R.style.Theme_LightBlue, R.style.Theme_LightOrange};
+    private static final int[] themes = {R.style.Theme_LightGreen, R.style.Theme_LightBlue, R.style.Theme_LightOrange, R.style.Theme_VisionImpaired};
 
     public static void rollover(BasicActivity a) {
         current_id = (current_id + 1) % themes.length;

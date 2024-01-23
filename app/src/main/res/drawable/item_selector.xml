@@ -6,5 +6,5 @@
         android:color="@color/white"/>
     <item
         android:state_selected="false"
-        android:color="#B6B6B6"/>
+        android:color="?attr/menuIconColor"/>
 </selector>

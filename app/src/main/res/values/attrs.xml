@@ -5,5 +5,6 @@
     <attr name="colorPrimaryLightGreen" format="color" />
     <attr name="colorPrimaryDarkLightGreen" format="color" />
     <attr name="colorAccentLightGreen" format="color" />
-
+    <attr name="btnStrokeColor" format="color"/>
+    <attr name="menuIconColor" format="color"/>
 </resources>
