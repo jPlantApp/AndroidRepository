@@ -7,7 +7,7 @@ import androidx.appcompat.app.AppCompatActivity;
 public abstract class BasicActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        setTheme(ThemeKeeper.getCurrentTheme());
+        setTheme(ThemeKeeper.getCurrentTheme(this));
         super.onCreate(savedInstanceState);
     }
 }

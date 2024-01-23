@@ -93,7 +93,7 @@ public class ProfileActivity extends BasicActivity {
     }
 
     private void changeTheme() {
-        ThemeKeeper.rollover();
+        ThemeKeeper.rollover(this);
         recreate();
     }
     private void logoutUser() {
