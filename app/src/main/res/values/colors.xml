@@ -7,6 +7,7 @@
     <color name="yellow">#FFC130</color>
     <color name="transparent">#00000000</color>
     <color name="lightgray">#B8B8B8</color>
+
     <!-- Light Green Theme Colors -->
     <color name="colorPrimaryLightGreen">#4CAF50</color>
     <color name="colorPrimaryDarkLightGreen">#388E3C</color>
@@ -22,6 +23,11 @@
     <color name="colorPrimaryDarkLightBlue">#1565C0</color>
     <color name="colorAccentLightBlue">#FFC107</color>
 
+
+
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">#000000</color>
+
     <color name="textColorVisionImpaired">#FFFFFF</color>
-<color name="textColorDarkVisionImpaired">#000000</color>
+    <color name="textColorDarkVisionImpaired">#000000</color>
 </resources>
