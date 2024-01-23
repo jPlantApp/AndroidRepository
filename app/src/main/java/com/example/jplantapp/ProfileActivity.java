@@ -1,5 +1,7 @@
 package com.example.jplantapp;
 
+import static com.example.jplantapp.ThemeKeeper.*;
+
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
@@ -9,11 +11,12 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
-public class ProfileActivity extends AppCompatActivity {
+public class ProfileActivity extends BasicActivity {
 
     private SharedPreferences userPreferences;
     private BottomNavigationView bottomNavigationView;
@@ -24,6 +27,7 @@ public class ProfileActivity extends AppCompatActivity {
     private TextView emailTextView;
     private ImageView userPhotoImageView;
     private Button logoutButton;
+    private Button themeButton;
 
     // ------------------------------------- //
     // ------------------------------------- //
@@ -78,8 +82,20 @@ public class ProfileActivity extends AppCompatActivity {
                 logoutUser();
             }
         });
+
+        themeButton = findViewById(R.id.changeThemeButton);
+        themeButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                changeTheme();
+            }
+        });
     }
 
+    private void changeTheme() {
+        ThemeKeeper.rollover();
+        recreate();
+    }
     private void logoutUser() {
         SharedPreferences.Editor editor = userPreferences.edit();
         editor.remove("isLoggedIn");

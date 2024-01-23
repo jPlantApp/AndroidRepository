@@ -18,4 +18,25 @@
         <item name="android:activityOpenEnterAnimation">@anim/slide_in_right</item>
         <item name="android:activityOpenExitAnimation">@anim/slide_out_left</item>
     </style>
+
+    <style name="Theme.LightGreen" parent="AppTheme">
+        <item name="colorPrimary">@color/colorPrimaryLightGreen</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkLightGreen</item>
+        <item name="colorAccent">@color/colorAccentLightGreen</item>
+    </style>
+
+
+    <!-- Light Red Theme -->
+    <style name="Theme.LightOrange" parent="AppTheme">
+        <item name="colorPrimary">@color/colorPrimaryLightRed</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkLightRed</item>
+        <item name="colorAccent">@color/colorAccentLightRed</item>
+    </style>
+
+    <!-- Light Blue Theme -->
+    <style name="Theme.LightBlue" parent="AppTheme">
+        <item name="colorPrimary">@color/colorPrimaryLightBlue</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkLightBlue</item>
+        <item name="colorAccent">@color/colorAccentLightGreen</item>
+    </style>
 </resources>

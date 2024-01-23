@@ -15,7 +15,7 @@ import android.widget.TextView;
 import com.bumptech.glide.Glide;
 import com.example.jplantapp.Response.FlowerResponse;
 
-public class FlowerActivity extends AppCompatActivity {
+public class FlowerActivity extends BasicActivity {
 
     private boolean isLoggedIn;
     private TextView flowerNameTextView;

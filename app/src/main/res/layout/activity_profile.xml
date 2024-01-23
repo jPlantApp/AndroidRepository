@@ -44,6 +44,7 @@
         android:maxHeight="300dp"
         android:minWidth="300dp"
         android:minHeight="300dp"
+        app:strokeColor="@null"
         app:srcCompat="@drawable/user_picture"
         app:shapeAppearanceOverlay="@style/RoundedImageView"/>
 
@@ -80,6 +81,7 @@
         android:textColor="?android:textColorPrimary"
         android:textSize="16sp" />
 
+
     <Button
         android:id="@+id/logoutButton"
         android:layout_width="160dp"
@@ -87,12 +89,27 @@
         android:layout_below="@+id/email"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginStart="124dp"
-        android:layout_marginTop="66dp"
-        android:layout_marginEnd="127dp"
+        android:layout_marginStart="128dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="123dp"
         android:layout_marginRight="10dp"
         android:background="@drawable/round_btn"
         android:text="Wyloguj"
+        android:textColor="@color/white"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/changeThemeButton"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/email"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="124dp"
+        android:layout_marginTop="121dp"
+        android:layout_marginEnd="124dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/round_btn"
+        android:text="Zmień Kolor"
         android:textColor="@color/white"
         android:textSize="14sp" />
 
