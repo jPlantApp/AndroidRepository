@@ -2,6 +2,7 @@ package com.example.jplantapp.Api;
 
 import com.example.jplantapp.Response.FlowerResponse;
 import com.example.jplantapp.Response.UserReponse;
+import com.example.jplantapp.BuildConfig;
 import com.example.jplantapp.Requests.PhotoClassificationRequest;
 import com.example.jplantapp.Requests.UserLoginRequest;
 
@@ -14,7 +15,7 @@ import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
 public class ApiManager<T> {
-    private static final String BASE_URL = "http://20.16.13.227:5000/";
+    private static final String BASE_URL = BuildConfig.serverBaseUrl;
     private final Retrofit retrofit;
 
     public ApiManager() {

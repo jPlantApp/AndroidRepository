@@ -2,3 +2,16 @@
 plugins {
 id 'com.android.application' version '8.2.1' apply false
 }
+
+
+def readProperties = { ->
+    def props = new Properties()
+    file("config.properties").withInputStream { props.load(it) }
+    return props
+}
+
+allprojects {
+    project.ext {
+        serverBaseUrl="${readProperties()["server_base_url"]}"
+    }
+}

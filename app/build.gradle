@@ -29,8 +29,8 @@ android {
         targetSdk 34
         versionCode 1
         versionName "1.0"
-
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        buildConfigField "String", "serverBaseUrl", project.serverBaseUrl
     }
 
     buildTypes {
@@ -45,6 +45,8 @@ android {
     }
 
     buildFeatures {
+        compose = true
+        buildConfig = true
         viewBinding true
         dataBinding true
     }
